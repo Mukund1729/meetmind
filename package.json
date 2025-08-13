@@ -1,0 +1,10 @@
+{
+  "name": "meetmind-root",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"yarn --cwd client start\" \"yarn --cwd server start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
